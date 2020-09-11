@@ -1,20 +1,20 @@
-proxies:
-- name: "UnblockedNeteaseMusic",
-  type: http,
-  server: 47.110.160.43,
-  username: "",
-  password: "",
-  port: 80,
-  tls: False
+# proxies:
+# - name: "UnblockedNeteaseMusic",
+#   type: http,
+#   server: 47.110.160.43,
+#   username: "",
+#   password: "",
+#   port: 80,
+#   tls: False
         
-proxy-groups:
-- name: Netease Music
-  type: select
-  proxies:
-  - DIRECT
-  - UnblockedNeteaseMusic
+# proxy-groups:
+# - name: Netease Music
+#   type: select
+#   proxies:
+#   - DIRECT
+#   - UnblockedNeteaseMusic
 
-rules:
+# rules:
 - DOMAIN-SUFFIX,music.163.com,Netease Music
 - DOMAIN-SUFFIX,music.126.net,Netease Music
 - DOMAIN-SUFFIX,apm.music.163.com,Netease Music
