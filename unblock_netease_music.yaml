@@ -1,5 +1,5 @@
 proxies:
-- name: "UnblockedNeteaseMusis",
+- name: "UnblockedNeteaseMusic",
   type: http,
   server: 47.110.160.43,
   username: "",
