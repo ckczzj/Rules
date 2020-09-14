@@ -62,7 +62,7 @@ proxy-providers:
   IEPL+:
     type: http
     path: ./Proxies/IEPL+.yaml
-    url: https://dler.cloud/subscribe/{manage_key}?protocols=ss&list=clash&match=IEPL%5C%2B
+    url: https://dler.cloud/subscribe/{$managed_token}?protocols=ss&list=clash&match=IEPL%5C%2B
     interval: *time_update  # 订阅更新间隔（秒）
     health-check:
       enable: true
@@ -71,7 +71,7 @@ proxy-providers:
   IEPL:
     type: http
     path: ./Proxies/IEPL.yaml
-    url: https://dler.cloud/subscribe/{manage_key}?protocols=ss&list=clash&match=IEPL
+    url: https://dler.cloud/subscribe/{$managed_token}?protocols=ss&list=clash&match=IEPL
     interval: *time_update  # 订阅更新间隔（秒）
     health-check:
       enable: true
@@ -81,7 +81,7 @@ proxy-providers:
   IPLC+:
     type: http
     path: ./Proxies/IPLC+.yaml
-    url: https://dler.cloud/subscribe/{manage_key}?protocols=ss&list=clash&match=IPLC%5C%2B
+    url: https://dler.cloud/subscribe/{$managed_token}?protocols=ss&list=clash&match=IPLC%5C%2B
     interval: *time_update  # 订阅更新间隔（秒）
     health-check:
       enable: true
@@ -91,7 +91,7 @@ proxy-providers:
   IPLC:
     type: http
     path: ./Proxies/IPLC.yaml
-    url: https://dler.cloud/subscribe/{manage_key}?protocols=ss&list=clash&match=IPLC
+    url: https://dler.cloud/subscribe/{$managed_token}?protocols=ss&list=clash&match=IPLC
     interval: *time_update  # 订阅更新间隔（秒）
     health-check:
       enable: true
@@ -101,7 +101,7 @@ proxy-providers:
   BGP:
     type: http
     path: ./Proxies/BGP.yaml
-    url: https://dler.cloud/subscribe/{manage_key}?protocols=ss&list=clash&match=BGP
+    url: https://dler.cloud/subscribe/{$managed_token}?protocols=ss&list=clash&match=BGP
     interval: *time_update  # 订阅更新间隔（秒）
     health-check:
       enable: true
