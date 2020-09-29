@@ -1,6 +1,6 @@
 port: 1216
 socks-port: 1217
-mixed-port: 1314
+mixed-port: 1218
 allow-lan: true
 mode: Rule
 log-level: info
