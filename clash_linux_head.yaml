@@ -20,10 +20,10 @@ dns:
     - '*.lan'
     - '*.edu.cn'
     - localhost.ptlogin2.qq.com
-    - '*.*.*.*.srv.nintendo.net'
-    - '*.*.*.stun.playstation.net'
-    - 'xbox.*.microsoft.com'
-    - '*.*.*.xboxlive.com'
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - xbox.*.*.microsoft.com
+    - '*.*.xboxlive.com'
     - '*.msftncsi.com'
     - 'www.msftconnecttest.com'
   nameserver:
