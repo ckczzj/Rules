@@ -1,5 +1,3 @@
 payload:  
   # > zjurvpn
   - DOMAIN-SUFFIX,cc98.org
-  - DOMAIN-SUFFIX,nexushd.org
-  - IP-CIDR,10.214.223.225/32,no-resolve
