@@ -1,10 +1,10 @@
-port: 1216
-socks-port: 1217
-mixed-port: 1218
+port: 2331
+socks-port: 2332
+mixed-port: 2333
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:1219
+external-controller: 127.0.0.1:2334
 experimental:
   ignore-resolve-fail: true
 dns:
